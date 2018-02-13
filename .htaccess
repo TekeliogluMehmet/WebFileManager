@@ -1,0 +1,5 @@
+IndexOptions +Charset=UTF-8
+AuthType Basic
+AuthName "Restricted Files"
+AuthUserFile /etc/httpd/.kalite.htpasswd
+Require valid-user

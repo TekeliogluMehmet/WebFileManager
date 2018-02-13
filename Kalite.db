@@ -1,0 +1,40 @@
+-- phpMyAdmin SQL Dump
+-- version 4.4.15.10
+-- https://www.phpmyadmin.net
+--
+-- Anamakine: localhost
+-- Database: Kalite
+-- Üretim Zamanı: 13 Şub 2018, 13:40:32
+-- Sunucu sürümü: 10.1.28-MariaDB
+-- PHP Sürümü: 5.4.16
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Veritabanı: `Kalite`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Tablo için tablo yapısı `dosyalar`
+--
+
+CREATE TABLE IF NOT EXISTS `dosyalar` (
+  `id` int(11) NOT NULL,
+  `dosyaadi` varchar(254) NOT NULL,
+  `klasor` varchar(2540) NOT NULL,
+  `versiyon` varchar(5) NOT NULL DEFAULT '1.0.0',
+  `aciklama` varchar(2500) NOT NULL DEFAULT '',
+  `boyut` bigint(20) NOT NULL DEFAULT '0',
+  `yayintarihi` date NOT NULL,
+  `dokumanno` varchar(30) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=117 DEFAULT CHARSET=latin5;
+

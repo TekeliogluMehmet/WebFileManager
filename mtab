@@ -1,0 +1,1 @@
+//192.168.99.13/kalite$ /var/www/html/kalite cifs rw,relatime,vers=1.0,cache=strict,username=kalite,domain=FILESRV,uid=0,noforceuid,gid=0,noforcegid,addr=192.168.99.13,file_mode=0755,dir_mode=0755,nounix,serverino,mapposix,rsize=61440,wsize=65536,echo_interval=60,actimeo=1 0 0
